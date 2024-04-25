@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header,
 nav,
 main,
@@ -10,13 +15,26 @@ footer {
   max-width: 780px;
   margin: 1rem auto;
   padding: 1rem;
-  border: ipx solid red;
-  background-color: rgb(120, 152, 176);
+  border: 1px solid red;
+  background-color: rgb(35, 5, 104);
   color: aliceblue;
+}
+h1 {
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+}
+nav a {
+  display: block;
+  padding: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: bisque;
 }
 
 nav .active {
-  background-color: rgba(127, 255, 212, 0.2);
+  background-color: rgba(80, 133, 115, 0.2);
 }
 
 main {
@@ -29,4 +47,12 @@ main {
 section {
   border: 1px solid blue;
   padding: 1rem;
+}
+
+nav a:hover {
+  background-color: rgb(176, 97, 97);
+}
+
+.my-name {
+  font-size: 2rem;
 }
