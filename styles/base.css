@@ -48,11 +48,11 @@ nav a {
   padding: 0.5rem;
   text-align: center;
   text-decoration: none;
-  color: bisque;
+  color: rgb(32, 19, 3);
 }
 
 nav a:hover {
-  background-color: rgba(176, 97, 97, 0.6);
+  background-color: rgba(213, 204, 204, 0.6);
 }
 
 nav .active {
@@ -87,6 +87,7 @@ section {
   width: 100%;
   padding-top: -1rem;
   display: block;
+  color: black;
 }
 
 .card li {
