@@ -16,7 +16,7 @@ footer {
   margin: 1rem auto;
   padding: 1rem;
   border: 1px solid red;
-  background-color: rgb(6, 146, 34);
+  background-color: rgba(6, 146, 34, 0.6);
   color: aliceblue;
 }
 
@@ -48,7 +48,8 @@ nav a {
   padding: 0.5rem;
   text-align: center;
   text-decoration: none;
-  color: rgb(32, 19, 3);
+  /* color: black; */
+  color: purple;
 }
 
 nav a:hover {
