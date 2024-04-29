@@ -86,7 +86,7 @@ section {
 .card h2 {
   background-color: #eb9191;
   width: 100%;
-  padding-top: -1rem;
+  /* padding-top: -16px; */
   display: block;
   color: black;
 }
