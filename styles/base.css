@@ -75,7 +75,9 @@ main section {
 section {
   border: 1px solid blue;
   /* padding: 1rem; */
-  background-color: #fff;
+  /* background-color: #fff; */
+    background-color: #f0e2ec;
+
   margin: 1rem 0;
 }
 
