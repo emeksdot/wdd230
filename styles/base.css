@@ -77,6 +77,7 @@ section {
   /* padding: 1rem; */
   /* background-color: #fff; */
     background-color: #f0e2ec;
+    color: purple;
 
   margin: 1rem 0;
 }
@@ -101,5 +102,5 @@ section {
 
 .card a {
   text-decoration: none;
-  color: black;
+  color: purple;
 }
