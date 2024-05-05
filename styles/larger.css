@@ -1,5 +1,5 @@
 @media screen and (min-width: 768px) {
-  nav {
+  nav1 {
     display: flex;
   }
   main {
@@ -22,4 +22,19 @@ h1{
     grid-row: 2/3;
     margin: 2rem;
   }
+
+  #hamburger{
+    display: none;
+  }
+
+  .nav1 a{
+    display: block;
+  }
+
+  .nav1 a {
+    display: block; /* change state in small view */
+    flex: 1 1 100%;
+  }
+
+  
 }
