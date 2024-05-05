@@ -6,7 +6,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  position: relative;
 }
 
 header,
@@ -105,5 +104,3 @@ section {
   text-decoration: none;
   color: purple;
 }
-
-
