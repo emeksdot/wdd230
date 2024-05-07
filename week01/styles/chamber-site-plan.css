@@ -1,133 +1,9 @@
-/* .kanit-thin {
-  font-family: "Kanit", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+
+
+header, main, footer{
+  max-width: 960px;
+  margin: 0 auto;
 }
-
-.kanit-extralight {
-  font-family: "Kanit", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.kanit-light {
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.kanit-regular {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.kanit-medium {
-  font-family: "Kanit", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.kanit-semibold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.kanit-bold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.kanit-extrabold {
-  font-family: "Kanit", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.kanit-black {
-  font-family: "Kanit", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.kanit-thin-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.kanit-extralight-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.kanit-light-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.kanit-regular-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.kanit-medium-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.kanit-semibold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.kanit-bold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.kanit-extrabold-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.kanit-black-italic {
-  font-family: "Kanit", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-
--------------------------------------------
-
-// <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 400 to 700
-
-.radio-canada-big-<uniquifier> {
-  font-family: "Radio Canada Big", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-*{
-    p0
-} */
-
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
 
 h1, h2, h3, h4, h5, h6{
   font-family: "Radio Canada Big", sans-serif;
@@ -152,16 +28,36 @@ nav ul li{
     list-style: none;
     padding: 1rem;
     margin: 2rem;
-    background-color: rgb(222, 177, 207);
     color: rgb(113, 62, 102);
-    /* color: rgb(222, 177, 207);
+    color: rgb(222, 177, 207);
     color: rgb(169, 196, 187);
     color: rgb(244, 233, 205);
-    color: rgb(235, 131, 50); */
+    color: rgb(235, 131, 50);
 }
 
 nav a{
     color: rgb(113, 62, 102);
     background-color: #fff;
+    padding: .5rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.callout{
+  background-color: rgb(235, 131, 50);
+  padding: .5rem 1rem;
+}
+
+.heading{
+  background-color: rgb(235, 131, 50);
+  padding: .5rem 1rem;
+  font-family: "Radio Canada Big", sans-serif;
+
+}
+
+.normal-text{
+  background-color: rgb(235, 131, 50);
+  padding: .5rem 1rem;
+  font-family: "Kanit", sans-serif;
 }
 
