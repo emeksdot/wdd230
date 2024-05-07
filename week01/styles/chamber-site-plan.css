@@ -152,16 +152,16 @@ nav ul li{
     list-style: none;
     padding: 1rem;
     margin: 2rem;
-    background-color: rgb(113, 62, 102);
-    color: rgb(222, 177, 207);
+    background-color: rgb(222, 177, 207);
     color: rgb(113, 62, 102);
-    color: rgb(222, 177, 207);
+    /* color: rgb(222, 177, 207);
     color: rgb(169, 196, 187);
     color: rgb(244, 233, 205);
-    color: rgb(235, 131, 50);
+    color: rgb(235, 131, 50); */
 }
 
 nav a{
-    color: rgb(222, 177, 207);
+    color: rgb(113, 62, 102);
+    background-color: #fff;
 }
 

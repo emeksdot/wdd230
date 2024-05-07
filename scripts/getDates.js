@@ -1,5 +1,7 @@
-const year = new Date();
-const bit = year.getFullYear();
-console.log(bit);
+const today = new Date();
+const bit = today.getFullYear();
 
-document.querySelector("#lastModified").innerHTML = bit;
+document.querySelector(".year").innerHTML = bit;
+
+const dateModified = new Date(document.lastModified);
+document.querySelector("#lastModified").innerHTML = dateModified;
