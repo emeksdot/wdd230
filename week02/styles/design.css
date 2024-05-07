@@ -33,11 +33,13 @@ h2 {
 
 h3{
     padding-left: 1rem;
+	color: #fff;
 }
 
 article p {
 	text-align: justify;
     padding: 1rem;
+	color: #fff;
 }
 
 .callout {
