@@ -5,3 +5,13 @@ document.querySelector(".year").innerHTML = bit;
 
 const dateModified = new Date(document.lastModified);
 document.querySelector("#lastModified").innerHTML = dateModified;
+
+const hamburger = document.querySelector("#menu");
+const nav = document.querySelector(".navigation");
+
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("show");
+  nav.classList.toggle("show");
+});
+
+

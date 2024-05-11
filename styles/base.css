@@ -6,6 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 header,
@@ -32,6 +33,11 @@ h1 {
   margin-left: 1rem;
 }
 
+header span {
+  font-size: 2rem;
+  align-self: center;
+}
+
 h2 {
   text-align: center;
 }
@@ -40,20 +46,28 @@ p {
   color: black;
   padding: 10px;
 }
-nav ul {
-  list-style: none;
+
+.navigation{
+    list-style: none;
+
 }
-nav a {
+.navigation li {
+  display: none;
+}
+
+
+.navigation a {
   display: block;
   padding: 0.5rem;
   text-align: center;
   text-decoration: none;
-  /* color: black; */
   color: purple;
 }
 
-nav a:hover {
+.navigation a:hover, .navigation a:active {
   background-color: rgba(213, 204, 204, 0.6);
+  color: blue;
+  border-radius: 10px;
 }
 
 nav .active {
@@ -90,7 +104,6 @@ section {
 .card h2 {
   background-color: #eb9191;
   width: 100%;
-  /* padding-top: -16px; */
   display: block;
   color: black;
 }
@@ -104,3 +117,34 @@ section {
   text-decoration: none;
   color: purple;
 }
+
+
+
+/* Code Above will be edited */
+
+#menu{
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: .5rem .75rem;
+}
+
+#menu::before {
+	content: "≡";
+	position: absolute;
+  right: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  align-self: center;
+
+
+}
+
+#menu.show::before{
+  content: 'X';
+}
+
+.show li {
+	display: block;
+}
+
