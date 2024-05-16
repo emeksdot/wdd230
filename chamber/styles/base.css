@@ -103,11 +103,12 @@ border-right: 5px solid var(--contrast-color);
 
 
 .navigation li:first-child a{
-  background-color: var(--contrast-color);
+  background-color: rgba(235, 131, 50, 0.3);
+  color: black;
 }
 
 .navigation li:first-child a:hover{
-  color: var(--accent2-color);
+  color: white;
   background-color: var(--primary-color-dark);
 }
 
@@ -141,8 +142,8 @@ main{
 
 .call-out{
   padding: .2rem .75rem;
-  background-color: var(--contrast-color);
-  color: var(--accent2-color);
+  background-color: var(--accent1-color);
+  color: var(--primary-color-dark);
   font-size: 2rem;
   text-decoration: none;
   font-weight: 700;
