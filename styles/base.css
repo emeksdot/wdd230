@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: "Roboto", sans-serif;
@@ -64,6 +60,8 @@ p {
   text-decoration: none;
   color: purple;
 }
+
+
 
 .navigation a:hover, .navigation a:active {
   background-color: rgba(213, 204, 204, 0.6);

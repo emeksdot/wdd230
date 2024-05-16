@@ -1,0 +1,136 @@
+:root {
+  --primary-color-dark: rgb(113, 62, 102) ; 
+  --secondary-color: rgb(222, 177, 207);
+  --accent1-color: rgb(169, 196, 187);
+  --accent2-color: rgb(244, 233, 205);
+  --contrast-color: rgb(235, 131, 50);
+
+  --paragraph-font: "Montserrat", sans-serif;
+  --heading-font: "Radio Canada Big", sans-serif;;
+
+  --nav-background-color: #b07ff6;
+  --nav-link-color: #dacdf7;
+  --nav-hover-background-color: #f7f7f7;
+  --nav-hover-link-color: #fdcbd8;
+}
+
+header,nav, main, footer{
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: var(--accent1-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navigation li{
+  list-style: none;
+
+}
+
+
+.navigation a{
+  display: block;
+  text-decoration: none;
+    color: rgb(113, 62, 102);
+    color: var(--primary-color-dark)
+    background-color: #ffffff;
+
+    
+  color: rgb(113, 62, 102);
+  background-color: #fff;
+  padding: .5rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+
+
+  
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1{
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  position: absolute;
+  align-self: center;
+  top: 50%;
+  color: var(--accent2-color);
+  outline: 1px solid red;
+  justify-self: center;
+  font-size: 4rem;
+  z-index: 2;
+}
+
+p, li{
+  font-family: var(--paragraph-font);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: bolder; 
+
+}
+
+
+
+body{
+  /* background-image: url(images/hero-img.jpg) */
+}
+
+________________________________________________________________
+
+
+
+
+@media screen and (min-width: 780px) {
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 100%;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 1fr;
+  }
+
+  .card {
+    box-shadow: 1px 1px 10px red;
+    grid-row: 2/3;
+    margin: 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    grid-column: 1 / 3;
+    text-align: center;
+  }
+
+  .navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 100%;
+        padding: 1rem;
+  margin: 2rem;
+	}
+	.navigation a {
+		text-align: center;
+	}
+	#menu {
+		display: none;
+	}
+
+    .banner{
+        background-image: url(images/hero-image1.jpeg);
+        background-position: 50% 50%;
+    }
+
+}

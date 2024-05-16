@@ -1,0 +1,77 @@
+@media screen and (min-width: 780px) {
+  .navigation{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 100%;
+  }
+
+  main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.banner{
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  position: relative;
+}
+.banner h1{
+   grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  position: absolute;
+  font-size: 3rem;
+  top: 25%;
+  width: 50%;
+}
+
+.call-out{
+  padding: .5rem 2rem;
+  background-color: var(--contrast-color);
+  color: var(--accent2-color);
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 17px;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.container{
+  display: grid;
+  grid-row: 2 / 3;
+  align-self: center;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+h2{
+  grid-column: 1 /4;
+  text-align: center
+}
+
+.left{
+  grid-column: 1 / 2 ;
+      flex: 1 1 100%;
+
+}
+.center{
+  grid-column: 2 / 3; 
+      flex: 1 1 100%;
+
+
+}
+.right{
+  grid-column: 3 / 4; 
+      flex: 1 1 100%;
+
+
+}
+
+.container section{
+  width: 100%;
+}
+
+}
