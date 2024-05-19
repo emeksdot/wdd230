@@ -31,7 +31,7 @@ footer {
 
 h1, h2, h3, h4, h5, h6{
   font-family: var(--heading-font), sans-serif;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -47,15 +47,20 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
-  color: var(--accent2-color);
-  background-color: rgba(222, 177, 207, 0.2);
+  background-color: var(--accent2-color);
+  background-color: rgba(244, 233, 205, 0.8);
+  background-color: rgba(255, 255, 0, 0.8);
+  color: var(--primary-color-dark);
   left: 15%;
   top: 10%;
   position: absolute;
+  border-radius: 5px;
   width: 300px;
   padding: 1rem;
   margin-bottom: 1rem;
+  box-shadow: 1px 1px 15px red;
 }
+
 
 h3{
   text-align: center;
@@ -159,20 +164,11 @@ main{
 
 .call-out:hover {
   text-transform: var(--contrast-color);
-	-webkit-animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-	        animation: scale-up-center 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: call-out-hover 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 
-@-webkit-keyframes .call-out:hover {
-  0% {
-      transform: scale(0.5);
-  }
-  100% {
-      transform: scale(1);
-  }
-}
-@keyframes scale-up-center {
+@keyframes call-out-hover {
   0% {
       transform: scale(0.5);
   }
@@ -185,7 +181,6 @@ main{
 .container{
   display: grid;
   grid-template-columns: 1fr;
-  /* justify-content: space-around; */
   gap: 1rem;
   width: 100%;
   box-sizing: border-box;
