@@ -163,7 +163,6 @@ main{
 
 
 .call-out:hover {
-  text-transform: var(--contrast-color);
   animation: call-out-hover 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
