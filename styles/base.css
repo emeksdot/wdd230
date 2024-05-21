@@ -157,3 +157,17 @@ section {
 	font-size: 2rem;
 }
 
+.hero{
+      margin: 0 auto;
+      grid-column: 1fr;
+
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid var(--primary-color-dark);
+    padding: 5px;
+}
+
