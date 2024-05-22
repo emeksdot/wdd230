@@ -19,7 +19,7 @@ footer {
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-content: center;
   position: relative;
 }
@@ -28,11 +28,16 @@ h1 {
   font-size: 1.75rem;
   align-self: center;
   margin-left: 1rem;
+  color: #551a8b;
 }
 
 header span {
   font-size: 2rem;
   align-self: center;
+  margin-left: 1.5rem;
+  color: #551a8b;
+  font-weight: 700;
+
 }
 
 h2 {
@@ -59,6 +64,8 @@ p {
   text-align: center;
   text-decoration: none;
   color: purple;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 
@@ -158,16 +165,35 @@ section {
 }
 
 .hero{
-      margin: 0 auto;
-      grid-column: 1fr;
+  display: grid;
+  margin: 0 auto;
+  grid-column: 1/2;
+  position: relative;
+  justify-content: center;
+
 
 }
 
 .hero img{
     width: 100%;
+    grid-column: 1/2;
     height: auto;
     margin: 0 auto;
     border: 1px solid var(--primary-color-dark);
     padding: 5px;
+}
+
+.hero h2{
+  position: absolute;
+  grid-column: 1/2;
+  align-self: center;
+  text-align: center;
+  color:#551a8b;
+  top: 25px;
+  left: 65px;
+  font-size: 2rem;
+  /* background-color: rgba(176, 127, 246, 0.2); */
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1.5rem;
 }
 
