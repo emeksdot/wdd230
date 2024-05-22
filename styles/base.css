@@ -197,3 +197,13 @@ section {
   padding: 1.5rem;
 }
 
+.map{
+  margin: 0 auto;
+  grid-column: 1/2;
+  border: 2px solid black;
+  padding: 0.5rem;
+  overflow: hidden;
+  /* width: 100%; */
+  max-width: 400px;
+  height: auto;
+}
