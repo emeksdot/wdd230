@@ -30,3 +30,24 @@ switchIcon.addEventListener("click", () => {
   }
 });
 
+// localStorage.setItem("myCat", "Tom");
+
+// const cat = localStorage.getItem("myCat");
+// The syntax for removing the localStorage item is as follows:
+
+
+
+const visitsHandle = document.querySelector(".num-visits");
+let numVisits = Number(window.localStorage.getItem("numberOfVisits"));
+
+if (numVisits !== 0) {
+  visitsHandle.textContent = numVisits;
+} else {
+  visitsHandle.textContent = `This is your first visit. 🌴 Welcome!`;
+}
+
+numVisits++;
+
+// 5️⃣ store the new visit total into localStorage, key=numVisits-ls
+localStorage.setItem("numberOfVisits", numVisits);
+
