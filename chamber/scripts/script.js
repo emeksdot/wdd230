@@ -19,4 +19,3 @@ let lastVisit = document.querySelector(".lastVisit");
 let message = document.querySelector(".message");
 
 
-}
