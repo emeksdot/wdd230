@@ -254,6 +254,46 @@ h2{
 	font-size: 2rem;
 }
 
+/* For the Discover Page */
+
+.discover-main{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+  margin: 0 auto;
+
+
+}
+
+.main-area{
+  /* grid-column: 2 / 3; */
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: .5rem;
+
+}
+
+.main-area img{
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.sidebar-content{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0.5rem;
+  
+}
+.sidebar-content  .second,.first{
+  border: 2px solid blue;
+    padding: 0.5rem;
+
+}
 
 
 

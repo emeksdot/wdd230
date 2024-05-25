@@ -121,4 +121,33 @@ h3{
 		display: none;
 	}
 
+  /* For the Discover Page */
+  .discover-main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+
+}
+
+.main-area{
+  grid-column: 2 / 3;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: .5rem;
+
+}
+
+.main-area img{
+  width: 100%;
+  height: auto;
+  border: 1px solid red;
+}
+
+.sidebar-content{
+  grid-column: 1 / 2;
+  padding: .5rem;
+}
 }
