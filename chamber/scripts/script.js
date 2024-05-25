@@ -13,3 +13,10 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("show");
   nav.classList.toggle("show");
 });
+
+
+let lastVisit = document.querySelector(".lastVisit");
+let message = document.querySelector(".message");
+
+
+}

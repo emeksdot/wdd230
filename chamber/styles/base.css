@@ -300,6 +300,21 @@ h2{
   height: auto;
 }
 
+.main-area img{
+    width: 100%;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
 
 
 
