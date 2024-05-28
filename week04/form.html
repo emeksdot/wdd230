@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM Team Activity</title>
+    <link rel="stylesheet" href="styles/form.css" />
+</head>
+
+<body>
+    <header>HTML Forms</header>
+    <main>
+        <form action="record.html" method="get" class="team-form">
+            <fieldset>
+                <label>Username*:<input type="text" id="username" name="username" required /></label>
+                <label>Password*:<input type="password" id="password" name="password" required /></label>
+                <label>Confirm password:<input id="confirmPassword" type="password" required /></label>
+                <label>Email*:<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a valid email address" required /></label>
+
+                <div class="slider">
+                    <label>Page rating:<input type="range" id="rating" name="rating" min="1" max="10" step="1" value="1"
+                            list="rangevalues" />
+                        <div class="rangevalue">*****</div>
+                    </label>
+                </div>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+            </fieldset>
+            <input type="submit" value="Rate Us" />
+        </form>
+    </main>
+    <footer></footer>
+    <script src="scripts/form.js"></script>
+</body>
+
+</html>

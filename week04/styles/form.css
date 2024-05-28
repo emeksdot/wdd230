@@ -1,0 +1,92 @@
+:root{
+    --background: #e6e8e2;
+    --font-color: #062877;
+    --input-border: #999999;
+    --required-color: #177312;
+    --invalid-color: #c00000;
+    --fieldset-border: #2f2d2d;
+}
+
+.team-form fieldset {
+  margin: 2rem 0;
+  border: 1px solid var(--fieldset-border);
+  border-radius: 6px;
+  padding: 1.5rem 2%;
+  max-width: 450px;
+  background-color: var(--background);
+}
+
+.team-form label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--font-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.team-form input[type="text"],
+.team-form input[type="password"],
+.team-form input[type="email"],
+.team-form input[type="submit"]{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 6px;
+    border: 1px solid var();
+    padding: 0.75rem;
+    appearance: none;
+
+}
+
+.team-form input[type="range"]{
+    margin-left: 1.5rem;
+    width: 320px;
+}
+
+.team-form input[type="submit"]{
+  width: 96%;
+  max-width: 400px;
+  margin: -1rem 2% 2rem 2%;
+  box-shadow: 1px 1px 4px #999999;
+  font-size: 1.5rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+
+
+input:required {
+  border-right: 6px solid var(--required-color) ;
+}
+
+input:required:invalid {
+  border-right: 6px solid var(--invalid-color);
+}
+
+.check{
+    border-right: 6px solid var(--invalid-color);
+    background-color: red;
+
+}
+
+.rangevalue{
+    font-size: 2rem;
+}
+
+.slider{
+    position: relative;
+}
+
+#rating::after{
+    position: absolute;
+    content: '10';
+    top: 70%;
+    left: 92%;
+}
+
+#rating::before{
+    position: absolute;
+    content: '1';
+    top: 70%;
+    left: 25%;
+}
