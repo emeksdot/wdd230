@@ -65,12 +65,24 @@ input:required:invalid {
 
 .check{
     border-right: 6px solid var(--invalid-color);
-    background-color: red;
+    background-color: rgb(247, 177, 177);
 
 }
 
 .rangevalue{
-    font-size: 2rem;
+  display: block;
+  font-size: 2rem;
+  color: var(--font-color);
+}
+
+.rangevalue::before{
+  content: '**';
+color: var(--invalid-color);
+}
+
+.rangevalue::after{
+  content: '**';
+color: var(--invalid-color);
 }
 
 .slider{
