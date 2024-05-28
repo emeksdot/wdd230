@@ -29,6 +29,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
   <header>
     <img src="images/profile.webp" alt="Emeka Thomas Profile Picture" width="120">
     <span>Emeka Thomas Onwugbonu</span>
@@ -72,6 +73,36 @@
               <option value="9">9</option>
               <option value="10">10</option>
             </datalist>
+=======
+    <header>HTML Forms</header>
+    <main>
+        <form action="record.html" method="get" class="team-form">
+            <fieldset>
+                <label>Username*:<input type="text" id="username" name="username" required /></label>
+                <label>Password*:<input type="password" id="password" name="password" required /></label>
+                <label>Confirm password:<input id="confirmPassword" type="password" required /></label>
+                <label>Email*:<input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
+                        title="Please enter a valid email address" required /></label>
+
+                <div class="slider">
+                    <label>Page rating:<input type="range" id="rating" name="rating" min="1" max="10" step="1" value="1"
+                            list="rangevalues" />
+                        <span class="rangevalue">#</span>
+                    </label>
+                </div>
+                <datalist id="rangevalues">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+>>>>>>> 528899d24b1ee576bced68778101c45a376238a1
             </fieldset>
             <input type="submit" value="Rate Us" />
             </form>

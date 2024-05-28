@@ -72,4 +72,7 @@ const rangevalue = document.querySelector(".rangevalue");
 rating.addEventListener("input", () => {
   rangevalue.innerHTML = rating.value;
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> 528899d24b1ee576bced68778101c45a376238a1
