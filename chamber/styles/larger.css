@@ -155,4 +155,17 @@ h3{
   width: 400px;
   height: auto;
 }
+.sidebar {
+  /* display: ; */
+  display: inline-block;
+  margin-left: 3rem;
+}
+
+.thankyou {
+  grid-column: 1 / 4;
+  background-color: var(--accent2-color);
+  margin: 0 auto;
+  padding: 3rem;
+  align-self: center;
+}
 }

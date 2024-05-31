@@ -315,6 +315,131 @@ h2{
     
 }
 
+.join-form {
+  display: block;
+  background-color: var(--accent2-color);
+  padding: .75rem;
+  padding-top: .25rem;
+  border-radius: 6px;
+}
 
+.join-form fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  max-width: 500px;
+}
+
+.join-form legend {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 0.25rem;
+  font-family: var(--heading-font), sans-serif;
+}
+
+.join-form label {
+  display: block;
+  padding-top: 1rem;
+  color: var(--primary-color-dark);
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-family: var(--paragraph-font);
+}
+
+.join-form label:first-of-type {
+  margin-top: 0;
+}
+
+
+.join-form input[type="text"],
+.join-form input[type="tel"],
+.join-form input[type="email"],
+.join-form input[type="number"] {
+  background-color: #eeeeee;
+  display: block;
+  border-radius: 6px;
+  border: 1px solid #999999;
+  padding: 0.5rem;
+  color: var(--primary-color-dark);
+  width: 100%;
+  height: 45px;
+  max-width: 400px;
+  appearance: none;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.join-form input[type="submit"] {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 10%;
+  border: 2px solid var(--primary-color-dark);
+  outline: none;
+  box-shadow: 1px 2px 3px 2px black;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+  height: 44px;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.join-form input[type="submit"]:hover {
+  background-color: var(--primary-color-dark);
+  color: var(--accent2-color);
+}
+
+.join-form input[type="radio"] {
+  display: inline;
+  align-self: flex-end;
+  margin-right: 0.5rem;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.join-form textarea {
+  min-height: 8rem;
+  min-width: 100%;
+  padding: 0.5rem;
+  border: 1px solid red;
+}
+
+.sidebar {
+  display: none;
+  background-color: var(--accent2-color);
+  padding: .75rem;
+  padding-top: .25rem;
+  border-radius: 6px;
+  padding: 2rem;
+  border-radius: 6px;
+  width: 100%;
+  min-width: 400px;
+}
+
+.sidebar ul li {
+  font-family: "Montserrat", sans-serif;
+}
+
+.thankyou {
+  background-color: var(--accent2-color);
+  margin: 0 auto;
+  padding: 3rem;
+  align-self: center;
+}
+
+.thankyou h3 {
+  font-family: var(--heading-font);
+}
+
+.thankyou p {
+  font-family: var(--paragraph-font);
+}
 
 

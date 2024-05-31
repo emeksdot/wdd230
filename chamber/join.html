@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join | Garden City Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico" />
+
+    <meta name="author" content="Emeka Thomas Onwugbonu" />
+    <meta name="description" content="Emeka Thomas Onwugbonu Garden City Chamber of Commerce form page" />
+    <meta property="og:title" content="Emeka Thomas Onwugbonu Garden City Chamber of Commerce form page " />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://emeksdot.github.io/wdd230/chamber/" />
+    <meta property="og:image" content="https://github.com/emeksdot/wdd230/blob/main/chamber/images/hero1.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+</head>
+
+<body>
+    <header>
+        <a id="menu" href="#"></a>
+
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="thankyou.html" method="get" class="join-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First name*<input type="text" id="fname" required /></label>
+                <label>Last name*<input type="text" id="lname" required /></label>
+            </fieldset>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Title <input type="text" pattern="^[a-zA-Z]([\w -]*[a-zA-Z]){7,}?$" required /></label>
+                <label>Email*<input type="email" placeholder="someone@gmail.com" required /></label>
+                <label>Phone*<input type="tel" id="phone" name="phone" required /></label>
+                <label>Mobile*<input type="tel" id="mobile" name="mobile" required /></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Business details</legend>
+                <label>Business name*<input type="text" id="biz" name="business" required /></label>
+                <label><input type="radio" name="membership" value="NP-Membership" /> NP
+                    Membership
+                </label>
+                <label><input type="radio" name="membership" value="bronze" /> Bronze
+                    Membership
+                </label>
+                <label><input type="radio" name="membership" value="silver" /> Silver
+                    Membership
+                </label>
+                <label><input type="radio" name="membership" value="gold" /> Gold
+                    Membership
+                </label>
+                <label class="description">Description of Business:
+                    <textarea name="description" cols="30" rows="10" id="description"></textarea>
+                </label>
+                <label>Timestamp: <input type="time" name="timestamp" id="timestamp" step="1" hidden></label>
+
+
+            </fieldset>
+
+
+            <input type="submit" value="Join Us" />
+        </form>
+        <section class="sidebar">
+            <h2>Membership Benefits</h2>
+            <h4>NP</h4>
+            <p>New business owners who have gone through the Chamber's mentorship program and are willing to gain full
+                membership will experience the following benefits:</p>
+            <ul>
+                <li>Access to partners for investment opportunities across economic sectors</li>
+                <li>15% Discount on Facility Rentals (Exclusive of tax)</li>
+                <li>10% Discount on Training Courses</li>
+                <li>Display of logos on Chamber website</li>
+                <li>10% Discount at the Port Harcourt Trade Fair</li>
+            </ul>
+            <h4>Bronze</h4>
+            <ul>
+                <li>Access to partners for investment opportunities across economic sectors</li>
+                <li>20% Discount on Facility Rentals (Exclusive of tax)</li>
+                <li>15% Discount on Training Courses</li>
+                <li>Invitation to Roundtable events</li>
+                <li>Display of logos on Chamber website</li>
+                <li>10% Discount at the Port Harcourt Trade Fair</li>
+            </ul>
+            <h4>Silver</h4>
+            <ul>
+                <li>Engagement with Chamber Trade Groups</li>
+                <li>Access to Chamber networking events</li>
+                <li>Particpation in International Trade Fairs</li>
+                <li>Access to partners for investment opportunities across economic sectors</li>
+                <li>30% Discount on Facility Rentals (Exclusive of tax)</li>
+                <li>20% Discount on Training Courses</li>
+                <li>Invitation to Roundtable events</li>
+                <li>Display of logos on Chamber website</li>
+                <li>10% Discount at the Port Harcourt Trade Fair</li>
+            </ul>
+            <h4>Gold</h4>
+            <ul>
+                <li>Chamber representation with the government</li>
+                <li>Display of company logo on website</li>
+                <li>10% discount on month-long banner adverts</li>
+                <li>Invitation to exclusive CEO Roundtable events</li>
+                <li>Participation in International Trade Fair </li>
+                <li>Loyalty card that entitles members to a range of selected merchant services</li>
+            </ul>
+
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span class="year"></span>🌴Emeka Thomas Onwugbonu 🌴 Port
+            Harcourt 🌴 Nigeria 🌴
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
