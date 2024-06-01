@@ -1,0 +1,52 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+main {
+    margin: 0 auto;
+}
+
+header {
+    align-self: center;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0.25rem;
+    align-self: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(321px, 1fr));
+    align-items: flex-start;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid green;
+    align-items: center;
+    margin: 0.75rem;
+    max-width: 320px;
+    float: left;
+}
+
+section>p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    font-weight: 500;
+}
+
+img {
+    width: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+footer {
+    clear: both;
+}
