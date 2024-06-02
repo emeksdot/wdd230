@@ -1,0 +1,132 @@
+{
+  "weeks": [
+    {
+      "week": "Week 1",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Layout |"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Queries"
+        }
+      ]
+    },
+    {
+      "week": "Week 02:",
+      "links": [
+        {
+          "url": "week02/design.html",
+          "title": "Design |"
+        },
+        {
+          "url": "chamber/index.html",
+          "title": "Chamber Homepage"
+        }
+      ]
+    },
+    {
+      "week": "Week 03:",
+      "links": [
+        {
+          "url": "week03/images/landscape.webp",
+          "title": "WebP |"
+        },
+
+        {
+          "url": "week03/lazyload.html",
+          "title": "LazyLoading |"
+        },
+
+        {
+          "url": "week03/responsive-images.html",
+          "title": "Responsive Images"
+        }
+      ]
+    },
+
+    {
+      "week": "Week 4",
+      "links": [
+        {
+          "url": "https://codepen.io/emeksdot/pen/pomEYBB",
+          "title": "Pseudo Classes |"
+        },
+        {
+          "url": "week04/images/2024-05-26.png",
+          "title": "Combinator |"
+        },
+        {
+          "url": "week04/tablebuild.html",
+          "title": "Table |"
+        },
+
+        {
+          "url": "week04/form-start/Form-start/index.html",
+          "title": "Form"
+        }
+      ]
+    },
+    {
+      "week": "Week 5",
+      "links": [
+        {
+          "url": "https://codepen.io/emeksdot/pen/XWwpLVx",
+          "title": "Pseudo Elements |"
+        },
+        {
+          "url": "week05/new-ward-members.json",
+          "title": "JSON |"
+        },
+        {
+          "url": "week05/prophets.html",
+          "title": "Prophets |"
+        },
+        {
+          "url": "week05/weather.html",
+          "title": " Weather API"
+        }
+      ]
+    },
+    {
+      "week": "Week 6",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Layout |"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Queries"
+        }
+      ]
+    },
+    {
+      "week": "Week 7",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Layout |"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Queries"
+        }
+      ]
+    },
+    {
+      "week": "Week 1XXXX",
+      "links": [
+        {
+          "url": "week01/holygrail.html",
+          "title": "Layout |"
+        },
+        {
+          "url": "week01/media-query.html",
+          "title": "Media Queries"
+        }
+      ]
+    }
+  ]
+}
