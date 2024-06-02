@@ -9,17 +9,6 @@ async function getProphetData() {
   //   console.table(data.prophets);
   displayProphets(data.prophets);
 }
-// {
-//   "name": "Joseph",
-//   "lastname": "Smith",
-//   "birthdate": "23 December 1805",
-//   "death": "27 June 1844",
-//   "length": 14,
-//   "order": 1,
-//   "birthplace": "Vermont",
-//   "numofchildren": 11,
-//   "imageurl": "https://assets.churchofjesuschrist.org/ec/f8/ecf80a88e31429d0aa0eeec6e2c74851a4bf4235/nauvoo_temple_joseph_art_lds.jpeg"
-// },
 
 const displayProphets = (prophets) => {
   prophets.forEach((prophet) => {
