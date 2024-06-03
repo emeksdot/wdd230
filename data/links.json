@@ -14,7 +14,7 @@
       ]
     },
     {
-      "week": "Week 02:",
+      "week": "Week 2:",
       "links": [
         {
           "url": "week02/design.html",
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "week": "Week 03:",
+      "week": "Week 3:",
       "links": [
         {
           "url": "week03/images/landscape.webp",
@@ -47,7 +47,7 @@
     },
 
     {
-      "week": "Week 04",
+      "week": "Week 4",
       "links": [
         {
           "url": "https://codepen.io/emeksdot/pen/pomEYBB",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "week": "Week 05",
+      "week": "Week 5",
       "links": [
         {
           "url": "https://codepen.io/emeksdot/pen/XWwpLVx",
@@ -86,45 +86,6 @@
         {
           "url": "week05/weather.html",
           "title": " Weather API"
-        }
-      ]
-    },
-    {
-      "week": "Week 06",
-      "links": [
-        {
-          "url": "week01/holygrail.html",
-          "title": "Layout |"
-        },
-        {
-          "url": "week01/media-query.html",
-          "title": "Media Queries"
-        }
-      ]
-    },
-    {
-      "week": "Week 07",
-      "links": [
-        {
-          "url": "week01/holygrail.html",
-          "title": "Layout |"
-        },
-        {
-          "url": "week01/media-query.html",
-          "title": "Media Queries"
-        }
-      ]
-    },
-    {
-      "week": "Week 1XXXX",
-      "links": [
-        {
-          "url": "week01/holygrail.html",
-          "title": "Layout |"
-        },
-        {
-          "url": "week01/media-query.html",
-          "title": "Media Queries"
         }
       ]
     }
