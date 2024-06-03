@@ -1,3 +1,36 @@
+const weatherIcon = document.querySelector("#weather-icon");
+const currentTemp = document.querySelector("#current-temp");
+const captionDesc = document.querySelector("#description");
+
+const url =
+  "https://api.openweathermap.org/data/2.5/weather?lat=4.847&lon=6.96&appid=1d875bc24efeb90a709aded70a081e15&units=imperial";
+
+async function apiFetch() {
+  try {
+    const response = await fetch(url);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data);
+      displayResults(data);
+    } else {
+      throw Error(await response.text());
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+const displayResults = (data) => {
+  currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+  const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+  let desc = data.weather[0].description;
+  weatherIcon.setAttribute("src", iconsrc);
+  weatherIcon.setAttribute("alt", desc);
+  captionDesc.textContent = `${desc}`;
+};
+
+apiFetch();
+
 const today = new Date();
 const bit = today.getFullYear();
 
@@ -13,7 +46,6 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("show");
   nav.classList.toggle("show");
 });
-
 
 const switchIcon = document.querySelector("#mode");
 const main = document.querySelector("main");
@@ -35,10 +67,8 @@ switchIcon.addEventListener("click", () => {
 // const cat = localStorage.getItem("myCat");
 // The syntax for removing the localStorage item is as follows:
 
-
-
 const visitsHandle = document.querySelector(".num-visits");
-let numVisits = Number(window.localStorage.getItem("numberOfVisits"));
+let numVisits = Number(window.localStorage.getItem("numberOfVisits")) || 0;
 
 if (numVisits !== 0) {
   visitsHandle.textContent = numVisits;
@@ -72,7 +102,3 @@ const rangevalue = document.querySelector(".rangevalue");
 rating.addEventListener("input", () => {
   rangevalue.innerHTML = rating.value;
 });
-<<<<<<< HEAD
-
-=======
->>>>>>> 528899d24b1ee576bced68778101c45a376238a1
