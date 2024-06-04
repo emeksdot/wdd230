@@ -450,8 +450,14 @@ h2{
   width: 100%;
 }
 
+.directory-container table th {
+  font-family: var(--heading-font);
+  color: var(--primary-color-dark);
+}
 .directory-container table td {
   border: 1px solid green;
+  font-family: var(--paragraph-font);
+    color: var(--primary-color-dark);
 
 }
 
