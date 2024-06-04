@@ -442,4 +442,22 @@ h2{
   font-family: var(--paragraph-font);
 }
 
+.directory-container {
+  width: 960px;
+}
+
+.directory-container table {
+  width: 100%;
+  border-bottom: 1px solid green;
+}
+
+.directory-container table td {
+  border: 1px solid green;
+
+}
+
+tbody tr:nth-child(even) {
+  /* background-color: var(--zebra); */
+  background-color: rgb(238, 238, 238);
+}
 
