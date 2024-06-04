@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {
+      "names": "African Independent Television",
+      "address": "Plot 126 Rumuosi-Alekahia Road",
+      "phoneNumber": "+234 (0)701 038 4961",
+      "website": "http://ait.live/",
+      "icon": "https://ait.live/wp-content/uploads/2024/05/AIT-Offical-Logo.png",
+      "membership": "Gold",
+      "info": "Radio/Television Station"
+    },
+    {
+      "names": "PAMO Clinic and Hospitals",
+      "address": "300 Aba Rd, Rumuomasi, Port Harcourt 500102",
+      "phoneNumber": "+234 808 375 2884",
+      "website": "https://portal.pums.edu.ng/",
+      "icon": "http://new.pums.edu.ng/wp-content/uploads/2021/08/PUMS-LOGO-02.png",
+      "membership": "Bronze",
+      "info": "Healthcare hospital and medical facilities."
+    },
+    {
+      "names": "Charlie's Total Fitness Center",
+      "address": "Plot 56/57 Stadium road GRA Phase IV, Port Harcourt",
+      "phoneNumber": "+234 (0) 706 251 8233",
+      "website": "charliestotalfitness.com",
+      "icon": "https://scontent.flos3-2.fna.fbcdn.net/v/t39.30808-1/294818296_418681813612675_440422684987755095_n.jpg?stp=dst-jpg_p200x200&_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHBPtptYIxUagE_NcbT0EOlq8IPwNOd156rwg_A053Xnkkjxev9yfeT12rr6s0rmwU&_nc_ohc=B7l47tCWRYMQ7kNvgEwqISP&_nc_ht=scontent.flos3-2.fna&oh=00_AYALfuGkWDFop-dhaImHAE00NnQYeKoZ3T4vY86DXfvjCQ&oe=6663DDC3",
+      "membership": "Silver",
+      "info": "Health and wellness"
+    },
+    {
+      "names": "Oak Haven Hotel And Suites",
+      "address": "126 Woji Road, Phase 2, GRA, Port Harcourt 500101, Rivers",
+      "phoneNumber": "+2349040771900",
+      "website": "https://oakhavenhotels.com/",
+      "icon": "https://oakhavenhotels.com/assets/img/home-five/logooak.png",
+      "membership": "Gold",
+      "info": "Hospitality, Lodging, Restaurant, Spa and Gym"
+    },
+    {
+      "names": "Pleasure Park",
+      "address": "b",
+      "phoneNumber": "c",
+      "website": "d",
+      "icon": "N/A",
+      "membership": "NP",
+      "info": "For outdoor enthusiasts and families looking for leisure activities"
+    },
+    {
+      "names": "Gabby's Images",
+      "address": "27 Rumuagholu Road Off Rumuokoro Roundabout",
+      "phoneNumber": "+2347053357958",
+      "website": "N/A",
+      "icon": "N/A",
+      "membership": "Silver",
+      "info": "Photography studios"
+    },
+    {
+      "names": "Serena & Mildred ",
+      "address": "16 Birabi Street, Forces Avenue Old GRA PHC",
+      "phoneNumber": "23480981970",
+      "website": "N/A",
+      "icon": "N/A",
+      "membership": "Silver",
+      "info": "Art Gallery"
+    },
+    {
+      "names": "United Bank for Africa",
+      "address": "Ikwerre Rd, Rumuokoro, Port Harcourt 500102",
+      "phoneNumber": "+234 01 280 8822",
+      "website": "https://www.ubagroup.com/",
+      "icon": "https://www.ubagroup.com/nigeria/wp-content/uploads/sites/3/2018/06/UBA-Logo.svg",
+      "membership": "Gold",
+      "info": "Financial institution."
+    },
+    {
+      "names": "Damian",
+      "address": "No 1 Ihioma Street Diobu, Mile 3 Port Harcourt",
+      "phoneNumber": "+2349152145988",
+      "website": "N/A",
+      "icon": "N/A",
+      "membership": "NP",
+      "info": "Non Governmental Organization and Charity"
+    }
+  ]
+}
